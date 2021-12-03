@@ -35,7 +35,7 @@ def initialise_halo_params():
     num_pos_particles = 5000
     num_neg_particles = 45000
     chunks_value = (num_pos_particles+num_neg_particles)/5.0
-    time_steps = 1000
+    time_steps = 1
     return G, epsilon, limit, radius, num_pos_particles, num_neg_particles, chunks_value, time_steps
 
 
